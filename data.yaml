@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['crosswalk', 'light_green', 'light_red', 'ped_correct', 'ped_wrong']
+
+roboflow:
+  workspace: pedestrian-objection
+  project: label-30tqe
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pedestrian-objection/label-30tqe/dataset/4
